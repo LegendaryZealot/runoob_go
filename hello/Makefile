@@ -6,7 +6,7 @@ everything : build
 
 all : build
 
-run:
+run:build
 	./$(TARGET)
 build : 
 	go build -o $(TARGET) main.go
